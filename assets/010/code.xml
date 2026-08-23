@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Empty State Screen | UIVault -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0F1115"
+    android:padding="32dp">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_empty_search"
+        android:tint="#6C5CE7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="No designs yet"
+        android:textColor="#F5F6FA"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Start exploring or add your first design to the vault"
+        android:textColor="#9CA3AF"
+        android:textSize="13sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:text="Browse Now"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#6C5CE7"
+        android:background="@drawable/btn_rounded_20" />
+
+</LinearLayout>
